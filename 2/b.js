@@ -3,8 +3,8 @@
 const run = (input) =>  {
   const valsArray = input.split(",").map(str => parseInt(str));
 
-  for(var x = 0; x <= 99; x++) {
-    for(var y = 0; y <= 99; y++) {
+  for(let x = 0; x <= 99; x++) {
+    for(let y = 0; y <= 99; y++) {
       const vals = [...valsArray];
       vals[1] = x;
       vals[2] = y;
